@@ -1,10 +1,10 @@
-New TimeOff.Management account for {{#with new_user }}{{this.full_name}}{{/with}}
+Cuenta TimeOff.Management para {{#with new_user }}{{this.full_name}}{{/with}}
 =====
-<p>Hello <strong>{{new_user.name}}</strong>,</p>
+<p>Hola <strong>{{new_user.name}}</strong>,</p>
 
-<p><strong>{{#with admin_user}}{{this.full_name}}{{/with}}</strong> just registered new account for you as an employee of <strong>{{company.name}}</strong>.</p>
+<p><strong>{{#with admin_user}}{{this.full_name}}{{/with}}</strong> acaba de registrar una cuenta para ti como empleado de <strong>{{company.name}}</strong>.</p>
 
-<p>Please contact <strong>{{admin_user.name}}</strong> about your new password and login at {{> email/link href=(get_application_domain) text="TimeOff.Management" }}</p>
+<p>Por favor, contacta <strong>{{admin_user.name}}</strong> para saber tu usuario y contraseña en {{> email/link href=(get_application_domain) text="TimeOff.Management" }}</p>
 
 <p>Alternatively follow the link below to set a new password:
 
@@ -14,4 +14,4 @@ New TimeOff.Management account for {{#with new_user }}{{this.full_name}}{{/with}
 
 </p>
 
-<p>Thanks</p>
+<p>Gracias</p>
